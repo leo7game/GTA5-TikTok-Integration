@@ -272,7 +272,7 @@ public class GTAVWebhookScript : Script
                     if (!int.TryParse(command.custom, out int num))
                         num = 1;
 
-                    if (num > 50) num = 50;
+                    if (num > 500) num = 500;
 
                     for (int i = 0; i < num; i++)
                     {
